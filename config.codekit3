@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "1DF96656-4451-4DEE-BDC3-95453C2242E0"
+		"uuidString": "569ADD1A-0516-4B88-B009-7172DFAB8ADC"
 		}
 	],
 "creatorBuild": "32186",
@@ -18,6 +18,26 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/img/Group9.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/Group9.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/Path2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/Path2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -43,8 +63,8 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/deploy/index.html",
-		"oF": 2
+		"oAP": "/dev/content/Martinsvg.html",
+		"oF": 1
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
@@ -71,24 +91,13 @@
 		"oF": 2
 		},
 	"/dev/js/scripts.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/sections/section-1-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/sections/section-1-min-min.js",
-		"oF": 0,
+		"oAP": "/deploy/js/scripts-min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -97,9 +106,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/sections/section-1-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -220,7 +229,7 @@
 		"oS": 0,
 		"sct": 0
 		},
-	"/dev/scss/sections/_Martinsvg.scss": {
+	"/dev/scss/sections/bondlogo-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -228,8 +237,21 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/Aston_svg.scss",
-		"oF": 2,
+		"oAP": "/dev/scss/sections/bondlogo-container.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/Martinsvg.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/Martinsvg.css",
+		"oF": 0,
 		"oS": 0,
 		"sct": 0
 		},
@@ -307,7 +329,7 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 627350192.84429097,
+	"creationDate": 627353348.88936496,
 	"displayValue": "Hotchkiss_FinalBOND",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-red",
@@ -1080,7 +1102,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {

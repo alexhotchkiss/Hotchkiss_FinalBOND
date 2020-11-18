@@ -1,5 +1,12 @@
-import {gsap} from "gsap"
+import {gsap} from "gsap";
 
-var astonlogoTL = gsap.timeline()
+const section1TL = gsap.timeline()
 
-astonlogoTL.from("#svg", {duration:1, alpha:0});
+section1TL.from("#logo", {duration: 1, alpha: 0})
+        .to("#logo", {duration: .5, alpha: 0})
+        .from("#bondlogo", {duration: 1, alpha: 0})
+        .to("#container #bondlogo", {duration:1, scale: .2, y:-480});
+
+export function logoAnimaiton(){
+    return section1TL;
+}

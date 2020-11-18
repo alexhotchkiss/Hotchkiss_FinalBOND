@@ -1,0 +1,18 @@
+#bondlogo-container{
+  display: grid;
+  grid-template-columns: auto 100% auto;
+  grid-template-areas: ". bond .";
+  
+  div{
+    grid-area: bond;
+    position: relative;
+  
+
+    .svgs{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}

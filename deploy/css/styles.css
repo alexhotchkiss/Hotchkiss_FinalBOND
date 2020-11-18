@@ -395,42 +395,6 @@ p {
   padding: 0;
 }
 
-#section-2 h1 {
-  font-size: 36pt;
-  text-align: center;
-  font-family: Recoleta, serif;
-}
-#section-2 p {
-  display: grid;
-  grid-template-columns: 75% auto;
-  color: white;
-  font-size: 16pt;
-  font-family: Recoleta, serif;
-  margin-top: 20px;
-  text-align: center;
-  margin-left: 295px;
-  padding-bottom: 20px;
-}
-#section-2 h2 {
-  font-size: 20pt;
-}
-
-#section-3 h1 {
-  color: black;
-  font-size: 45pt;
-}
-#section-3 p {
-  font-family: Helvetica, sans-serif;
-  font-size: 18pt;
-}
-
-#footer h1 {
-  font-size: 31.5pt;
-}
-#footer h2 {
-  font-size: 20pt;
-}
-
 /* =============
     Buttons
 ============= */
@@ -458,13 +422,32 @@ textarea {
 /* =============
     Header
 ============= */
-#svg {
-  display: grid;
-  grid-template-columns: auto 60% auto;
-  grid-template-areas: ". astonsvg .";
+section {
+  background-color: #34313f;
 }
-#svg div {
-  grid: astonsvg;
-  display: flex;
-  justify-content: center;
+section #logo svg {
+  margin-left: 580px;
+  margin-top: 130px;
+}
+section #bondlogo svg {
+  width: 40%;
+  margin-left: 600px;
+  margin-top: 280px;
+  margin-bottom: 600px;
+}
+
+#bondlogo-container {
+  display: grid;
+  grid-template-columns: auto 100% auto;
+  grid-template-areas: ". bond .";
+}
+#bondlogo-container div {
+  grid-area: bond;
+  position: relative;
+}
+#bondlogo-container div .svgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
