@@ -1,18 +1,26 @@
-#bondlogo-container{
-  display: grid;
-  grid-template-columns: auto 100% auto;
-  grid-template-areas: ". bond .";
-  
-  div{
-    grid-area: bond;
-    position: relative;
-  
+#bondlogo-container {
+	display: grid;
+	grid-template-columns: auto 80% auto;
+	grid-template-areas: ". bond .";
 
-    .svgs{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-    }
-  }
+	>div {
+		grid-area: bond;
+		position: relative;
+		background-color: $darkblue;
+		width: 100%;
+		height: 100vh;
+
+
+		.svg-container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			border: 1px solid green;
+
+			svg {
+				width: 100%;
+			}
+		}
+	}
 }

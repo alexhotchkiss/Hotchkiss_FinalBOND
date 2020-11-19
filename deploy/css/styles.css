@@ -422,32 +422,25 @@ textarea {
 /* =============
     Header
 ============= */
-section {
-  background-color: #34313f;
-}
-section #logo svg {
-  margin-left: 580px;
-  margin-top: 130px;
-}
-section #bondlogo svg {
-  width: 40%;
-  margin-left: 600px;
-  margin-top: 280px;
-  margin-bottom: 600px;
-}
-
 #bondlogo-container {
   display: grid;
-  grid-template-columns: auto 100% auto;
+  grid-template-columns: auto 80% auto;
   grid-template-areas: ". bond .";
 }
-#bondlogo-container div {
+#bondlogo-container > div {
   grid-area: bond;
   position: relative;
+  background-color: #34313f;
+  width: 100%;
+  height: 100vh;
 }
-#bondlogo-container div .svgs {
+#bondlogo-container > div .svg-container {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  border: 1px solid green;
+}
+#bondlogo-container > div .svg-container svg {
   width: 100%;
 }
