@@ -1,19 +1,38 @@
-// section{
-//   background-color: $darkblue;
-
-//   #logo{
-//     svg{
-//       margin-left: 580px;
-//       margin-top: 130px;
-//     }
-//   }
+section{
   
-//   #bondlogo{
-//    svg{
-//     width: 40%;
-//     margin-left: 600px;
-//     margin-top: 280px;
-//     margin-bottom: 600px;
-//    } 
-//   }
-// }
+  #logo{
+    svg{
+        height: 150px;
+        margin-top: 325px;
+    }
+  }
+  
+  #bondlogo{
+   svg{
+       height: 200px;
+       margin-top: 300px;
+       margin-left: 30px;
+   } 
+  }
+
+  #logo_stroke{
+      svg{
+        height: 150px;
+        margin-top: 325.5px;
+        margin-left: -.5px;
+      }
+  }
+
+  #Left-tab{
+      svg{
+          margin-top: 21px;
+          height: 41px;          
+      }
+  }
+
+  #Right-tab{
+      svg{
+          height: 20px;
+      }
+  }
+}

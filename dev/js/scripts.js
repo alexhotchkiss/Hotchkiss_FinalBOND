@@ -1,6 +1,11 @@
 import {gsap} from "gsap";
+import {GSDevTools} from "gsap/GSDevTools";
 
-//import { logoAnimaiton } from "./sections/section-1.js"
+gsap.registerPlugin(GSDevTools);
 
-//const mainTL = gsap.timeline();
-//mainTL.add(logoAnimaiton);
+import { logoAnimaiton } from "./sections/section-1.js"
+
+const mainTL = gsap.timeline();
+mainTL.add(logoAnimaiton); 
+
+GSDevTools.create();

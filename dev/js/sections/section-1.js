@@ -1,12 +1,21 @@
 import {gsap} from "gsap";
+import {DrawSVGPlugin} from "gsap/DrawSVGPlugin"
 
-const section1TL = gsap.timeline()
+gsap.registerPlugin(DrawSVGPlugin);
 
-section1TL.from("#logo #Layer_2", {duration: 1, alpha: 0})
-        .to("#logo #Layer_2", {duration: .5, alpha: 0})
-        .from("#bondlogo #Layer_2", {duration: 1, alpha: 0})
-        .to("#bondlogo #Layer_2", {duration:1, scale: .2, y:-340});
+const section1TL = gsap.timeline();
+
 
 export function logoAnimaiton(){
+    section1TL.from("#logo_stroke #outside",{duration:1, drawSVG: "0%"})
+        .from("#logo_stroke #inside",{duration:1, alpha: 0})
+        .to("#logo_stroke #inside",{duration:1, drawSVG: "0%"})
+        .to("#logo_stroke #outside",{duration:.1, alpha: 0}, "frist")
+        .from("#logo", {duration: 1, alpha: 0}, "first")
+        .to("#logo", {duration: .5, alpha: 0})
+        .from("#bondlogo #Layer_2", {duration: 1, alpha: 0})
+        .to("#bondlogo", {duration:1, scale: .2, y:-240})
+        .from("#Left-tab", {duration: 1, alpha: 0, x: -80});
+
     return section1TL;
 }

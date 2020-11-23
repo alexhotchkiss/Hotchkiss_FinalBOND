@@ -422,6 +422,28 @@ textarea {
 /* =============
     Header
 ============= */
+section #logo svg {
+  height: 150px;
+  margin-top: 325px;
+}
+section #bondlogo svg {
+  height: 200px;
+  margin-top: 300px;
+  margin-left: 30px;
+}
+section #logo_stroke svg {
+  height: 150px;
+  margin-top: 325.5px;
+  margin-left: -0.5px;
+}
+section #Left-tab svg {
+  margin-top: 21px;
+  height: 41px;
+}
+section #Right-tab svg {
+  height: 20px;
+}
+
 #bondlogo-container {
   display: grid;
   grid-template-columns: auto 80% auto;
@@ -439,7 +461,6 @@ textarea {
   top: 0;
   left: 0;
   width: 100%;
-  border: 1px solid green;
 }
 #bondlogo-container > div .svg-container svg {
   width: 100%;
