@@ -441,7 +441,13 @@ section #Left-tab svg {
   height: 41px;
 }
 section #Right-tab svg {
-  height: 20px;
+  height: 41px;
+  margin-top: 670px;
+}
+section #MPH svg {
+  height: 220px;
+  margin-top: 240px;
+  margin-left: 170px;
 }
 
 #bondlogo-container {
