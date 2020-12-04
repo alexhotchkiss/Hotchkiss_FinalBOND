@@ -44,4 +44,28 @@ section{
           margin-left: 170px;
       }
   }
+
+  #gasgauge{
+      svg{
+          margin-top: 420px;
+          margin-left: 800px;
+          
+      }
+  }
+
+  #rpm{
+    svg{
+        margin-top: 240px;
+        margin-left: 900px;
+        height: 220px;
+    }
+  }
+
+  #time{
+      svg{
+        margin-top: 35px;
+        height: 40px;
+        margin-left: 450px;
+      }
+  }
 }

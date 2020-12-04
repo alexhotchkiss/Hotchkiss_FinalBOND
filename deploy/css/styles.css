@@ -449,6 +449,20 @@ section #MPH svg {
   margin-top: 240px;
   margin-left: 170px;
 }
+section #gasgauge svg {
+  margin-top: 420px;
+  margin-left: 800px;
+}
+section #rpm svg {
+  margin-top: 240px;
+  margin-left: 900px;
+  height: 220px;
+}
+section #time svg {
+  margin-top: 35px;
+  height: 40px;
+  margin-left: 450px;
+}
 
 #bondlogo-container {
   display: grid;

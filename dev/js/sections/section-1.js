@@ -19,7 +19,10 @@ export function logoAnimaiton(){
         .to("#Left-tab", {duration: 1, x: -450}, "tab")
         .from("#Right-tab", {duration: 1, alpha: 0, x: -400}, "tab")
         .to("#Right-tab", {duration: 1, x: 450}, "tab")
-        .from("#MPH", {duration: 1, alpha: 0});
+        .from("#time", {duration: 1, alpha: 0})
+        .from("#MPH", {duration: 1, alpha: 0})
+        .from("#gasgauge", {duration: 1, alpha: 0})
+        .from("#rpm", {duration: 1, alpha: 0});
 
     return section1TL;
 }
