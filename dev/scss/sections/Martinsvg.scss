@@ -33,7 +33,7 @@ section{
   #Right-tab{
       svg{
           height: 41px;
-          margin-top: 670px;
+          margin-top: 625px;
       }
   }
 
@@ -45,18 +45,26 @@ section{
       }
   }
 
+  #speedTag{
+      font-family: "optima", bold-italic;
+      font-size: 80px;
+      margin-top: 300px;
+      margin-left: 695px;
+      color: white;
+  }
+
   #gasgauge{
       svg{
           margin-top: 420px;
-          margin-left: 800px;
-          
+          margin-left: 300px;
+          height: 140px;
       }
   }
 
   #rpm{
     svg{
         margin-top: 240px;
-        margin-left: 900px;
+        margin-left: 430px;
         height: 220px;
     }
   }
@@ -68,4 +76,182 @@ section{
         margin-left: 450px;
       }
   }
+
+  #icon_holder{
+      svg{
+          height: 540px;
+          margin-top: 120px;
+          margin-left: -470px;
+      }
+  }
+
+  #icons{
+      svg{
+          height: 540px;
+          margin-top: 120px;
+          margin-left: -170px;
+      }
+  }
+
+  #icon1{
+      svg{
+          height: 120px;
+          margin-top: 135px;
+          margin-left: -470px;
+
+      }
+  }
+
+    #icon2{
+        svg{
+            height: 120px;
+            margin-top: 265px;
+            margin-left: -470px;
+        }
+    }
+
+    #icon3{
+        svg{
+            height: 120px;
+            margin-top: 395px;
+            margin-left: -470px;
+        }
+    }
+
+    #icon4{
+        svg{
+            height: 120px;
+            margin-top: 525px;
+            margin-left: -470px;
+        }   
+    }
+
+    #weather{
+        svg{
+            height: 40px;
+            margin-top: 170px;
+            margin-left: -470px;
+        }
+    }
+
+    #music{
+        svg{
+            height: 70px;
+            margin-top: 290px;
+            margin-left: -475px;
+        }
+    }
+
+    #gps{
+        svg{
+            height: 70px;
+            margin-top: 420px;
+            margin-left: -470px;
+        }
+    }
+
+    #seats{
+        svg{
+            height: 85px;
+            margin-top: 545px;
+            margin-left: -470px;
+        }
+    }
+
+    #top_weather{
+        svg{
+            height: 49.2px;
+            margin-top: 120px;
+            margin-left: -170px;
+        }
+    }
+
+    #sun-cloud{
+        svg{
+            height: 120px;
+            margin-top: 220px;
+            margin-left: -170px;
+        }
+    }
+
+    #degrees{
+        svg{
+            height: 100px;
+            margin-top: 360px;
+            margin-left: -165px;
+        }
+    }
+
+    #weather-text{
+        svg{
+            height: 110px;
+            margin-top: 500px;
+            margin-left: -170px;
+        }
+    }
+
+    #icons_music{
+        svg{
+            height: 540px;
+            margin-top: 120px;
+            margin-left: -170px;
+        }
+    }
+
+    #music_top{
+        svg{
+            height: 49.2px;
+            margin-top: 120px;
+            margin-left: -170px;
+        }
+    }
+
+    #img{
+        svg{
+            height: 360px;
+            margin-top: 169px;
+            margin-left: -170px;
+        }
+    }
+
+    #playbar{
+        svg{
+            height: 14px;
+            margin-top: 550px;
+            margin-left: -170px;
+        }
+    }
+
+    #play-pause{
+        svg{
+            height: 50px;
+            margin-top: 585px;
+            margin-left: -170px;
+        }
+    }
+
+    #icons_gps{
+        svg{
+            height: 540px;
+            margin-top: 120px;
+            margin-left: -170px;
+        }
+    }
+
+    #gps-top{
+        svg{
+            height: 49.2px;
+            margin-top: 120px;
+            margin-left: -170px;
+        }
+    }
+
+    #buildings{
+        svg{
+            height: 492.2px;
+            margin-top: 169px;
+            margin-left: -170px;
+        }
+    }
+
 }

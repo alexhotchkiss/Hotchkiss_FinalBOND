@@ -442,26 +442,144 @@ section #Left-tab svg {
 }
 section #Right-tab svg {
   height: 41px;
-  margin-top: 670px;
+  margin-top: 625px;
 }
 section #MPH svg {
   height: 220px;
   margin-top: 240px;
   margin-left: 170px;
 }
+section #speedTag {
+  font-family: "optima", bold-italic;
+  font-size: 80px;
+  margin-top: 300px;
+  margin-left: 695px;
+  color: white;
+}
 section #gasgauge svg {
   margin-top: 420px;
-  margin-left: 800px;
+  margin-left: 300px;
+  height: 140px;
 }
 section #rpm svg {
   margin-top: 240px;
-  margin-left: 900px;
+  margin-left: 430px;
   height: 220px;
 }
 section #time svg {
   margin-top: 35px;
   height: 40px;
   margin-left: 450px;
+}
+section #icon_holder svg {
+  height: 540px;
+  margin-top: 120px;
+  margin-left: -470px;
+}
+section #icons svg {
+  height: 540px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #icon1 svg {
+  height: 120px;
+  margin-top: 135px;
+  margin-left: -470px;
+}
+section #icon2 svg {
+  height: 120px;
+  margin-top: 265px;
+  margin-left: -470px;
+}
+section #icon3 svg {
+  height: 120px;
+  margin-top: 395px;
+  margin-left: -470px;
+}
+section #icon4 svg {
+  height: 120px;
+  margin-top: 525px;
+  margin-left: -470px;
+}
+section #weather svg {
+  height: 40px;
+  margin-top: 170px;
+  margin-left: -470px;
+}
+section #music svg {
+  height: 70px;
+  margin-top: 290px;
+  margin-left: -475px;
+}
+section #gps svg {
+  height: 70px;
+  margin-top: 420px;
+  margin-left: -470px;
+}
+section #seats svg {
+  height: 85px;
+  margin-top: 545px;
+  margin-left: -470px;
+}
+section #top_weather svg {
+  height: 49.2px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #sun-cloud svg {
+  height: 120px;
+  margin-top: 220px;
+  margin-left: -170px;
+}
+section #degrees svg {
+  height: 100px;
+  margin-top: 360px;
+  margin-left: -165px;
+}
+section #weather-text svg {
+  height: 110px;
+  margin-top: 500px;
+  margin-left: -170px;
+}
+section #icons_music svg {
+  height: 540px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #music_top svg {
+  height: 49.2px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #img svg {
+  height: 360px;
+  margin-top: 169px;
+  margin-left: -170px;
+}
+section #playbar svg {
+  height: 14px;
+  margin-top: 550px;
+  margin-left: -170px;
+}
+section #play-pause svg {
+  height: 50px;
+  margin-top: 585px;
+  margin-left: -170px;
+}
+section #icons_gps svg {
+  height: 540px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #gps-top svg {
+  height: 49.2px;
+  margin-top: 120px;
+  margin-left: -170px;
+}
+section #buildings svg {
+  height: 492.2px;
+  margin-top: 169px;
+  margin-left: -170px;
 }
 
 #bondlogo-container {
