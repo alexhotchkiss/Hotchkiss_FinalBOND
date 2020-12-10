@@ -69,6 +69,14 @@ section{
     }
   }
 
+  #rpmTag{
+        font-family: "optima", bold-italic;
+        font-size: 80px;
+        margin-top: 300px;
+        margin-left: 955px;
+        color: white;
+    }
+
   #time{
       svg{
         margin-top: 35px;
@@ -251,6 +259,50 @@ section{
             height: 492.2px;
             margin-top: 169px;
             margin-left: -170px;
+        }
+    }
+
+    #gpsClipPath{
+        svg{
+            height: 504px;
+            margin-top: 156.5px;
+            margin-left: -169px;
+            #line{
+                
+            }
+        }
+    }
+
+    #dot2{
+        svg{
+            height: 40px;
+            margin-top: 620px;
+            margin-left: -201px;
+
+        }
+    }
+
+    #sun_rays{
+        svg{
+            height: 170px;
+            margin-top: 185px;
+            margin-left: -214px;
+        }
+    }
+
+    #mph-gauge{
+        svg{
+            height: 156px;
+            margin-top: 265px;
+            margin-left: 171px;
+        }
+    }
+
+    #seatlines{
+        svg{
+            height: 60px;
+            margin-top: 580px;
+            margin-left: -485px;
         }
     }
 
